@@ -1,0 +1,11 @@
+.sectionSpliter-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    background-color: #FAF9F7;;
+}
+.sectionSpliter {
+    color: #ebebeb;
+    border: 2px solid;
+    width: 784px;
+}

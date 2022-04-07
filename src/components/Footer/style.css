@@ -1,0 +1,213 @@
+.footer-wrapper {
+    width: 1440px;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.footer-section>h6 {
+    font-family: 'Inter';
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.footer-section>p {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.footer-section>a {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 24px;
+    color: #5E20A4;
+}
+
+.footer-links {
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 82px;
+}
+
+.footer-links-about {
+    width: 412px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 90px;
+}
+
+.footer-links-about>a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #3D3D3D;
+}
+
+.footer-links-socialmedia {
+    width: 167px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copyright {
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: right;
+    margin-top: 90px;
+    opacity: 0.6;
+}
+
+@media (max-width: 360px) {
+    .footer-wrapper {
+        width: 359px;
+        height: 574px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .footer-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .footer-section>h6 {
+        width: 291px;
+        height: 32px;
+        font-family: 'Inter';
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .footer-section>p {
+        width: 304px;
+        height: 28px;
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 24px;
+    }
+
+    .footer-section>a {
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin: 0;
+        color: #5E20A4;
+        margin-top: 24px;
+    }
+
+    .footer-links {
+        width: 359px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-top: 96px;
+    }
+
+    .footer-links {
+        width: 150px;
+        height: 19px;
+    }
+
+    .footer-links-about {
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .footer-links-about>a {
+        text-decoration: none;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #3D3D3D;
+        margin: 0px;
+        margin-top: 3px;
+    }
+
+    .footer-links-socialmedia {
+        width: 167px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        margin: 0px;
+        margin-top: 24px;
+        margin-bottom: -40px;
+    }
+
+    .footer-copyright {
+        font-family: 'Inter';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: right;
+        margin: 0;
+        opacity: 0.6;
+        margin-top: 160px;
+    }
+
+}

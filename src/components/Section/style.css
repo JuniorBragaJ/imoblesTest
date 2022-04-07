@@ -1,0 +1,64 @@
+.Section {
+    width: 1440px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Section>a {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 32px;
+    color: #5E20A4;
+}
+
+.Section>p {
+    font-family: 'Helvetica';
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 2px;
+}
+
+@media (max-width: 360px) {
+    .Section {
+        width: 360px;
+        height: 216px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Section>a {
+        width: 212px;
+        height: 48px;
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #5E20A4;
+        margin-top: 16px;
+        margin-left: 0px;
+    }
+
+    .Section>p {
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-top: 12px;
+    }
+}

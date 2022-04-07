@@ -1,0 +1,35 @@
+.header-wrapper {
+    background: linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
+    width: 1440px;
+    height: 616px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header {
+    background-image: url('../../images/background.svg');
+    width: 1440px;
+    height: 616px;
+    left: 0px;
+    top: 0px;
+}
+
+@media (max-width: 360px) {
+    .header-wrapper {
+        width: 359px;
+        height: 540px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header {
+        background-image: url('../../images/background.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 359px;
+        height: 540px;
+    }
+}

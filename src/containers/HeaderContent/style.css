@@ -1,0 +1,116 @@
+.HeaderContent-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.HeaderContent {
+    margin-left: 128px;
+    margin-top: -80px;
+}
+
+.HeaderContent>h1 {
+    width: 490px;
+    height: 96px;
+    color: white;
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: -1px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.HeaderContent>p {
+    width: 584px;
+    height: 48;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.HeaderAction {
+    display: flex;
+    align-items: center;
+    margin-left: 128px;
+    margin-top: 53px;
+}
+
+.HeaderAction>a {
+    color: white;
+    margin-left: 16px;
+}
+
+.HeaderActionPlay {
+    width: 48px;
+    height: 48px;
+    background-color: #00A870;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -130px;
+}
+
+.HeaderActionPlay>img {
+    margin-left: 3px;
+}
+
+.HeaderPhoto {
+    margin-left: 184px;
+    margin-top: -80px;
+}
+
+
+@media (max-width: 360px) {
+    .HeaderContent-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 540px;
+        width: 359px;
+        margin-left: -65px;
+    }
+
+    .HeaderContent {
+        width: 359px;
+        height: 540px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .HeaderContent>h1 {
+        width: 272px;
+        height: 96px;
+        font-family: 'Inter';
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    .HeaderContent>p {
+        width: 328px;
+        height: 84px;
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    .HeaderPhoto {
+        display: none;
+    }
+}

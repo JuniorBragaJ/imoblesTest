@@ -1,0 +1,101 @@
+.dataSection-wrapper {
+    width: 1440px;
+    height: 876px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FAF9F7;
+}
+
+.dataSection-wrapper>h5 {
+    font-family: 'Inter';
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.dataSection-wrapper>p {
+    width: 784px;
+    height: 84px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.dataSection-wrapper>a {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #5E20A4;
+    margin-top: 40px;
+}
+
+.dataSection-wrapper>img {
+    margin-top: 64px;
+}
+
+@media (max-width: 360px) {
+    .dataSection-wrapper {
+        width: 359px;
+        height: 473px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #FAF9F7;
+    }
+
+    .dataSection-wrapper>h5 {
+        width: 243px;
+        height: 64px;
+        font-family: 'Inter';
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .dataSection-wrapper>p {
+        width: 328px;
+        height: 196px;
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin: 0px;
+        margin-top: 16px;
+    }
+
+    .dataSection-wrapper>a {
+        width: 328px;
+        height: 48px;
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #5E20A4;
+        margin: 0px;
+        margin-top: 24px;
+    }
+
+    .dataSection-wrapper>img {
+        display: none;
+    }
+
+}

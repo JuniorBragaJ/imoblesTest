@@ -1,0 +1,132 @@
+.ContactSection-wrapper {
+    width: 1440px;
+    height: 322px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FAF9F7;
+}
+
+.ContactSection>h3 {
+    margin-top: 64px;
+    margin-bottom: 16px;
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.ContactSection>p {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+.ContactSection-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 64px;
+}
+
+.ContactSection-form>button {
+    width: 96px;
+    height: 48px;
+    background-color: #00A870;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.ContactSection-form>input {
+    width: 232px;
+    height: 48px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 12px;
+    margin: 6px;
+}
+
+@media (max-width: 360px) {
+    .ContactSection-wrapper {
+        width: 359px;
+        height: 496px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #FAF9F7;
+    }
+
+    .ContactSection {
+        margin-top: 28px;
+    }
+
+    .ContactSection>h3 {
+        width: 328px;
+        height: 64px;
+        font-family: 'Inter';
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+
+    .ContactSection>p {
+        width: 328px;
+        height: 84px;
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 32px;
+    }
+
+    .ContactSection-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .ContactSection-form>button {
+        width: 328px;
+        height: 48px;
+        background-color: #00A870;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .ContactSection-form>input {
+        width: 328px;
+        height: 48px;
+        border: 1px solid rgb(226, 226, 226);
+        border-radius: 5px;
+        box-sizing: border-box;
+        padding: 12px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+}
